@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Personal Portfolio Website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/9d70621aed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+	<nav>
+		<img src="image/111.png" class="logo">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="header-text">
+		<p>Full Stack Java Developer</p>
+		<h1>Hi, I'm <span>Abhinna Sundar Behuria</span><br> From Odisha</h1>
+	</div>
+	</div>
+</div>
+
+<!-- about  -->
+
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="image/me.jpeg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;As a full stack Java developer, I have a broad understanding of back-end and front-end development. My proficiency in Java enables me to build robust and scalable applications using various frameworks to build seamless user interfaces and efficient server-side components. With my adaptability, passion for clean code and relentless pursuit of excellence, I contribute to deliver high quality solutions in an ever-evolving digital landscape.</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>Languages</span><br><p>&nbsp;&nbsp;&nbsp;&nbsp;1️⃣ Core Java<br>&nbsp;&nbsp;&nbsp;&nbsp;2️⃣ Advance Java</p></li>
+						<li><span>Database</span><br>&nbsp;&nbsp;&nbsp;&nbsp;1️⃣ Oracle</li>
+						<li><span>FrameWorks</span><br>&nbsp;&nbsp;&nbsp;&nbsp;1️⃣ Spring Boot</li>
+						<li><span>Web Design Technologies</span><br>&nbsp;&nbsp;&nbsp;&nbsp;1️⃣ HTML5<br>&nbsp;&nbsp;&nbsp;&nbsp;2️⃣ CSS3<br>&nbsp;&nbsp;&nbsp;&nbsp;3️⃣ Java Script</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>10th</span><br>&nbsp;&nbsp;&nbsp;&nbsp;➡️ "I passed the 10th in the year 2012<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with an aggregated mark of 65%."</li>
+						<li><span>12th</span><br>&nbsp;&nbsp;&nbsp;&nbsp;➡️ "I passed the 12th in the year 2014<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; with an aggregated mark of 55%."</li>
+						<li><span>Graduation</span><br>&nbsp;&nbsp;&nbsp;&nbsp;➡️ "I graduated with Mathematics Honors in the year 2017<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; with an aggregate mark of 51%."</li>
+						<li><span>MCA</span><br>&nbsp;&nbsp;&nbsp;&nbsp;➡️ "I completed my MCA (Master of Computer Applications) in the year 2022<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; with an aggregated CGPA of 8.61."</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- services -->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-code"></i>
+				<h2>Backend Developer</h2>
+				<p>Java backend developers build server-side components of applications using Java, ensuring scalability and robustness.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-crop"></i>
+				<h2>App Design</h2>
+				<p>App design involves creating intuitive and visually appealing interfaces for a seamless user experience.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-app-store-ios"></i>
+				<h2>UI Design</h2>
+				<p>UI design focuses on crafting visually appealing and user-friendly interfaces for digital products and applications.</p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- portfolio -->
+<div id="portfolio">
+	<div id="container">
+		<h1 class="sub-title">My Work(Internship)</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="image\emp.jpg">
+				<div class="layer">
+					<h3>Employee management system</h3>
+					<p> The Java-based Employee Management System is a software<br>for organizing employee data, attendance, payroll<br>and performance evaluation efficiently.</p>
+					<a href="https://github.com/abhijdk/Internship_Project/tree/master/Internship_project_From_Company_LearnSmasher/src/employee_management_system"> <i class="fa-solid fa-link"></i></a>
+				</div> 
+			</div>
+			<div class="work">
+				<img src="image/bank.jpg">
+				<div class="layer">
+					<h3>Banking system</h3>
+					<p> The Java banking system code facilitates account management,<br>transactions, and security features for a secure<br>and reliable banking experience.</p>
+					<a href="https://github.com/abhijdk/Internship_Project/tree/master/Internship_project_From_Company_LearnSmasher/src/banking_system"> <i class="fa-solid fa-link"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="image/task.jpg">
+				<div class="layer">
+					<h3>Task Management System</h3>
+					<p> The Java task management system code efficiently organizes<br>tasks, assigns priorities, tracks progress, and<br>enhances team collaboration and productivity.</p>
+					<a href="https://github.com/abhijdk/Internship_Project/tree/master/Internship_project_From_Company_LearnSmasher/src/task_management_system"> <i class="fa-solid fa-link"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="https://github.com/abhijdk?tab=repositories" class="btn">See More</a>
+	</div>
+</div>
+
+<!-- contact -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-envelope"></i>abhinnabehuria@outlook.com</p>
+				<p><i class="fa-solid fa-phone"></i>+91 9776777600</p>
+				<div class="social-icons">
+					<a href="https://www.linkedin.com/in/abhinna-sundar-behuria-6b3047268/"><i class="fa-brands fa-linkedin"></i></a>
+					<a href="https://github.com/abhijdk"><i class="fa-brands fa-github"></i></a>
+					<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+					<a href="https://web.telegram.org/"><i class="fa-brands fa-telegram"></i></a>
+				</div>
+				<a href="image/my_cv.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright ©️ AbhinnaSundarBehuria</i></p>
+	</div>
+</div>
+
+<script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+	for(tablink of tablinks){
+		tablink.classList.remove("active-link");
+	}
+	for(tabcontent of tabcontents){
+		tabcontent.classList.remove("active-tab");
+	}
+	event.currentTarget.classList.add("active-link");
+	document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyGBg-KvXB1JPeiB_hk-zZlYvajBWUCacGfScTGCQHUBD2VHIsbIFzb6QBPVRAOZwz9_w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+    	  msg.innerHTML = "Your Data is Submitted Successfully"
+    	  setTimeout(function(){
+    		  msg.innerHTML = ""
+    	  },5000)
+    	  form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
